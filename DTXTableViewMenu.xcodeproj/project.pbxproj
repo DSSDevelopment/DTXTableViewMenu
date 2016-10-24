@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5760E77B1DBAAD4500337FB0 /* SimpleCustomForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760E77A1DBAAD4500337FB0 /* SimpleCustomForm.swift */; };
+		5764097A1DBE277900152547 /* DTXSignatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576409791DBE277900152547 /* DTXSignatureRow.swift */; };
+		5764097C1DBE27E300152547 /* EPSignaturePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5764097B1DBE27E300152547 /* EPSignaturePickerController.swift */; };
 		57E4268A1DBAA059003C1E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E426891DBAA059003C1E12 /* AppDelegate.swift */; };
 		57E4268C1DBAA059003C1E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E4268B1DBAA059003C1E12 /* ViewController.swift */; };
 		57E4268F1DBAA059003C1E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E4268D1DBAA059003C1E12 /* Main.storyboard */; };
 		57E426911DBAA059003C1E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E426901DBAA059003C1E12 /* Assets.xcassets */; };
 		57E426941DBAA059003C1E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E426921DBAA059003C1E12 /* LaunchScreen.storyboard */; };
+		57FD206D1DBE84E40017DF24 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD20691DBE84E40017DF24 /* EPExtensions.swift */; };
+		57FD206E1DBE84E40017DF24 /* EPSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD206A1DBE84E40017DF24 /* EPSignatureView.swift */; };
+		57FD206F1DBE84E40017DF24 /* EPSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD206B1DBE84E40017DF24 /* EPSignatureViewController.swift */; };
+		57FD20701DBE84E40017DF24 /* EPSignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FD206C1DBE84E40017DF24 /* EPSignatureViewController.xib */; };
+		7A0E0F2E212EBBDE0BA2F457 /* Pods_DTXTableViewMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA461A4A296A56077B755DE /* Pods_DTXTableViewMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F013887992C377E006D64D3 /* Pods-DTXTableViewMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTXTableViewMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTXTableViewMenu/Pods-DTXTableViewMenu.release.xcconfig"; sourceTree = "<group>"; };
+		5760E77A1DBAAD4500337FB0 /* SimpleCustomForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCustomForm.swift; sourceTree = "<group>"; };
+		576409791DBE277900152547 /* DTXSignatureRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTXSignatureRow.swift; path = ../DTXSignatureRow.swift; sourceTree = "<group>"; };
+		5764097B1DBE27E300152547 /* EPSignaturePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EPSignaturePickerController.swift; path = ../EPSignaturePickerController.swift; sourceTree = "<group>"; };
 		57E426861DBAA059003C1E12 /* DTXTableViewMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTXTableViewMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E426891DBAA059003C1E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E4268B1DBAA059003C1E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		57E426901DBAA059003C1E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E426931DBAA059003C1E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E426951DBAA059003C1E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FD20691DBE84E40017DF24 /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
+		57FD206A1DBE84E40017DF24 /* EPSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPSignatureView.swift; sourceTree = "<group>"; };
+		57FD206B1DBE84E40017DF24 /* EPSignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPSignatureViewController.swift; sourceTree = "<group>"; };
+		57FD206C1DBE84E40017DF24 /* EPSignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPSignatureViewController.xib; sourceTree = "<group>"; };
+		9BA461A4A296A56077B755DE /* Pods_DTXTableViewMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTXTableViewMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C10ABC673A85584F967C94 /* Pods-DTXTableViewMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTXTableViewMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTXTableViewMenu/Pods-DTXTableViewMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0E0F2E212EBBDE0BA2F457 /* Pods_DTXTableViewMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				57E426881DBAA059003C1E12 /* DTXTableViewMenu */,
 				57E426871DBAA059003C1E12 /* Products */,
+				A3C3BABE133ACA9E005A7F08 /* Pods */,
+				ED0ECB402E2871C9715212B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,46 @@
 		57E426881DBAA059003C1E12 /* DTXTableViewMenu */ = {
 			isa = PBXGroup;
 			children = (
+				57FD20681DBE84DA0017DF24 /* EPSignature */,
+				576409791DBE277900152547 /* DTXSignatureRow.swift */,
+				5764097B1DBE27E300152547 /* EPSignaturePickerController.swift */,
 				57E426891DBAA059003C1E12 /* AppDelegate.swift */,
 				57E4268B1DBAA059003C1E12 /* ViewController.swift */,
+				5760E77A1DBAAD4500337FB0 /* SimpleCustomForm.swift */,
 				57E4268D1DBAA059003C1E12 /* Main.storyboard */,
 				57E426901DBAA059003C1E12 /* Assets.xcassets */,
 				57E426921DBAA059003C1E12 /* LaunchScreen.storyboard */,
 				57E426951DBAA059003C1E12 /* Info.plist */,
 			);
 			path = DTXTableViewMenu;
+			sourceTree = "<group>";
+		};
+		57FD20681DBE84DA0017DF24 /* EPSignature */ = {
+			isa = PBXGroup;
+			children = (
+				57FD20691DBE84E40017DF24 /* EPExtensions.swift */,
+				57FD206A1DBE84E40017DF24 /* EPSignatureView.swift */,
+				57FD206B1DBE84E40017DF24 /* EPSignatureViewController.swift */,
+				57FD206C1DBE84E40017DF24 /* EPSignatureViewController.xib */,
+			);
+			name = EPSignature;
+			sourceTree = "<group>";
+		};
+		A3C3BABE133ACA9E005A7F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C10ABC673A85584F967C94 /* Pods-DTXTableViewMenu.debug.xcconfig */,
+				3F013887992C377E006D64D3 /* Pods-DTXTableViewMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED0ECB402E2871C9715212B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA461A4A296A56077B755DE /* Pods_DTXTableViewMenu.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E426981DBAA059003C1E12 /* Build configuration list for PBXNativeTarget "DTXTableViewMenu" */;
 			buildPhases = (
+				F4175D34B23F8DF897011A36 /* [CP] Check Pods Manifest.lock */,
 				57E426821DBAA059003C1E12 /* Sources */,
 				57E426831DBAA059003C1E12 /* Frameworks */,
 				57E426841DBAA059003C1E12 /* Resources */,
+				5C973B0B1C95D2D9877978DD /* [CP] Embed Pods Frameworks */,
+				871F7E818E042300C2DA773A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FD20701DBE84E40017DF24 /* EPSignatureViewController.xib in Resources */,
 				57E426941DBAA059003C1E12 /* LaunchScreen.storyboard in Resources */,
 				57E426911DBAA059003C1E12 /* Assets.xcassets in Resources */,
 				57E4268F1DBAA059003C1E12 /* Main.storyboard in Resources */,
@@ -132,13 +189,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C973B0B1C95D2D9877978DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTXTableViewMenu/Pods-DTXTableViewMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871F7E818E042300C2DA773A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTXTableViewMenu/Pods-DTXTableViewMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4175D34B23F8DF897011A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57E426821DBAA059003C1E12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FD206F1DBE84E40017DF24 /* EPSignatureViewController.swift in Sources */,
+				5760E77B1DBAAD4500337FB0 /* SimpleCustomForm.swift in Sources */,
 				57E4268C1DBAA059003C1E12 /* ViewController.swift in Sources */,
+				5764097A1DBE277900152547 /* DTXSignatureRow.swift in Sources */,
 				57E4268A1DBAA059003C1E12 /* AppDelegate.swift in Sources */,
+				57FD206D1DBE84E40017DF24 /* EPExtensions.swift in Sources */,
+				57FD206E1DBE84E40017DF24 /* EPSignatureView.swift in Sources */,
+				5764097C1DBE27E300152547 /* EPSignaturePickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +368,12 @@
 		};
 		57E426991DBAA059003C1E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C10ABC673A85584F967C94 /* Pods-DTXTableViewMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B337PCH6NQ;
 				INFOPLIST_FILE = DTXTableViewMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dramatech.DTXTableViewMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +383,12 @@
 		};
 		57E4269A1DBAA059003C1E12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F013887992C377E006D64D3 /* Pods-DTXTableViewMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B337PCH6NQ;
 				INFOPLIST_FILE = DTXTableViewMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dramatech.DTXTableViewMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +415,7 @@
 				57E4269A1DBAA059003C1E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
